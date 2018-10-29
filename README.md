@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # BoXunH5
 
 ## 一、mimt-ui
@@ -80,3 +81,6 @@ npm cache clean --force
 =======
 # BoXun1.0
 >>>>>>> 9dd954789f2bc30dcbfb677e6195b5425d1dddc5
+=======
+# upDateBoXunTab
+>>>>>>> c6741a46e3dd6a12232d174a5ec29c8cc4e562a3
