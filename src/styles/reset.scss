@@ -1,0 +1,212 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: .28rem;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: PingFang-SC-Medium;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.mint-cell {
+  height: .88rem;
+  color: #666;
+  border: none;
+  .mint-cell-wrapper {
+    height: 100%;
+    line-height: .88rem;
+    border: none;
+    .mint-cell-title {
+      .mint-cell-text {
+        font-size: .28rem;
+      }
+    }
+
+    .mint-cell-value {
+      span {
+        margin-right: .3rem;
+        font-size: .24rem;
+      }
+    }
+  }
+  .mint-cell-allow-right::after {
+    display: inline-block;
+    width: .28rem;
+    height: .28rem;
+    font-size: .28rem;
+    margin-right: .1rem;
+  }
+}
+
+// .mint-header {
+//   height: .8rem;
+//   label {
+//     font-size: .3rem;
+//   }
+//   .mint-header-button.is-left {
+//     height: .8rem;
+//     line-height: .8rem;
+//     margin-left: .1rem;
+//     .router-link-active {
+//       height: .8rem;
+//       line-height: .8rem;
+//       .mint-button.mint-button--default.mint-button--normal {
+//         height: .8rem;
+//         line-height: .8rem;
+//         .mint-button-icon {
+//           height: .8rem;
+//           line-height: .8rem;
+//           vertical-align: unset;
+//           .mintui.mintui-back {
+//             height: .8rem;
+//             line-height: .8rem;
+//             font-size: .34rem;
+//           }
+//         }
+//         .mint-button-text {
+//           font-size: .34rem;
+//           margin-left: .1rem;
+//         }
+//       }
+//     }
+//   }
+//   .mint-header-title {
+//     font-size: .34rem;
+//   }
+//   .mint-header-button.is-right {
+//     margin-right: .2rem;
+//   }
+// }
+
+.mint-tabbar {
+  .mint-tab-item {
+    .mint-tab-item-label {
+      color: #666;
+    }
+  }
+}
